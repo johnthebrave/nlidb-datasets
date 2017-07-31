@@ -16,30 +16,34 @@ Contents:
 - train.json:
 
     Contains 24594 entries, with the following structure:
-
+    
+```javascript
     {
-        "title"       : "(string) Title provided in natural language that explains the meaning of the SQL query",
-        "description" : "(string) A longer description of the query (may be missing)",
-        "sql_plain    : "(string) The original query, as it appeared on data.stackexchange",
-        "sql"         : "(string) Query with comments removed",
-        "comments"    : "(list of strings) List with the removed comments",
-        "url"         : "(string) URL where the query or its revision can be found",
-        "id"          : "(string) Unique identifier, extracted from the url",
+        title       : "(string) Title provided in natural language that explains the meaning of the SQL query"
+        description : "(string) A longer description of the query (may be missing)"
+        sql_plain   : "(string) The original query, as it appeared on data.stackexchange"
+        sql         : "(string) Query with comments removed"
+        comments    : "(list of strings) List with the removed comments"
+        url         : "(string) URL where the query or its revision can be found"
+        id          : "(string) Unique identifier, extracted from the url"
     }
+```
 
 - test.json:
 
     Contains 296 entries that follow the structure from the training file, with the addition
     of the following fields:
 
+```javascript
     {
-        "annotations": [
+        annotations: [
             {
-                "annotation"  : "(string) Natural Language manual annotation",
-                "annotator_id": "(integer) Number uniquely identifying the annotator"
+                annotation  : "(string) Natural Language manual annotation"
+                annotator_id: "(integer) Number uniquely identifying the annotator"
             }
         ]
     }
+```
 
 License
 ------------
