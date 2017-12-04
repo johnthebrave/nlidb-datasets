@@ -51,4 +51,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unpor
    
 Reference
 ------------
-Dataset for a Neural Natural Language Interface for Databases (NNLIDB) - https://arxiv.org/abs/1707.03172
+Brad, Florin, Radu Iacob, Ionel Hosu, and Traian Rebedea. "Dataset for a Neural Natural Language Interface for Databases (NNLIDB)." arXiv preprint arXiv:1707.03172 (2017). https://arxiv.org/abs/1707.03172
